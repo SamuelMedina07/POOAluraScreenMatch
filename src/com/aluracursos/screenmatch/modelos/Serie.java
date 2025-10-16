@@ -2,12 +2,12 @@ package com.aluracursos.screenmatch.modelos;
 
 public class Serie extends Titulo{
      int temporadas;
-     int episodiosPorTemporadas;
+     int episodiosPorTemporada;
      int minutosPorEpisodio;
 
      @Override
      public int getDuracionEnMinutos() {
-         return temporadas * episodiosPorTemporadas * minutosPorEpisodio;   }
+         return temporadas * episodiosPorTemporada * minutosPorEpisodio;   }
 
     public int getTemporadas() {
         return temporadas;
@@ -17,12 +17,12 @@ public class Serie extends Titulo{
         this.temporadas = temporadas;
     }
 
-    public int getEpisodiosPorTemporadas() {
-        return episodiosPorTemporadas;
+    public int getEpisodiosPorTemporada() {
+        return episodiosPorTemporada;
     }
 
-    public void setEpisodiosPorTemporadas(int episodiosPorTemporadas) {
-        this.episodiosPorTemporadas = episodiosPorTemporadas;
+    public void setEpisodiosPorTemporada(int episodiosPorTemporadas) {
+        this.episodiosPorTemporada = episodiosPorTemporadas;
     }
 
     public int getMinutosPorEpisodio() {

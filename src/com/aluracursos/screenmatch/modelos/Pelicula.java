@@ -5,6 +5,11 @@ import com.aluracursos.screenmatch.calculos.Calificacion;
 public class Pelicula extends Titulo implements Calificacion {
    private String director;
 
+   //Creando constructor para recibir siempre el nombre de la pelicula y no usar .setNombre
+    public Pelicula(String nombre) {
+        this.setNombre(nombre);
+    }
+
     public String getDirector() {
         return director;
     }

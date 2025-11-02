@@ -8,8 +8,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula();
-        miPelicula.setNombre("Encanto");
+        Pelicula miPelicula = new Pelicula("Nemo");
         miPelicula.setFechaDeLanzamiento(2021);
         miPelicula.setDuracionEnMinutos(120);
         miPelicula.setIncluidoEnElPlan(true);
@@ -21,8 +20,7 @@ public class Principal {
         System.out.println(miPelicula.getTotalDelasEvaluaciones());
         System.out.println("Média de evaluaciones de la película: " + miPelicula.calculaMedia());
 
-        Pelicula otraPelicula = new Pelicula();
-        otraPelicula.setNombre("Megamente");
+        Pelicula otraPelicula = new Pelicula("Megamente");
         otraPelicula.setFechaDeLanzamiento(2021);
         otraPelicula.setDuracionEnMinutos(200);
         otraPelicula.setIncluidoEnElPlan(true);
@@ -55,9 +53,8 @@ public class Principal {
         filtroRecomendacion.filtra(episodio);
 
         //Inferencia del tipo de dato (usar var), en lugar de escribir Pelicula peliculaSamuel = new Pelicula();
-        var peliculaSamuel = new Pelicula();
+        var peliculaSamuel = new Pelicula("Lost");
 
-        peliculaSamuel.setNombre("Lost");
         peliculaSamuel.setDuracionEnMinutos(180);
         peliculaSamuel.setFechaDeLanzamiento(2015);
 

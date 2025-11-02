@@ -24,6 +24,14 @@ public class Titulo {
             this.duracionEnMinutos = duracionEnMinutos;
         }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getFechaDeLanzamiento() {
+        return fechaDeLanzamiento;
+    }
+
     public int getDuracionEnMinutos() {
         return duracionEnMinutos;
     }

@@ -17,5 +17,11 @@ public class Pelicula extends Titulo implements Calificacion {
     public int getCalificacion() {
         return (int) calculaMedia()/2;
     }
+
+    //ots shortcut
+    @Override
+    public String toString() {
+        return "Pelicula: " + this.getNombre() + "[" + this.getFechaDeLanzamiento() + "]";
+    }
 }
 

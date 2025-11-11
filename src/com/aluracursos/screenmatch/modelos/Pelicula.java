@@ -7,7 +7,7 @@ public class Pelicula extends Titulo implements Calificacion {
 
    //Creando constructor para recibir siempre el nombre de la pelicula y no usar .setNombre
     public Pelicula(String nombre) {
-        this.setNombre(nombre);
+        super(nombre);
     }
 
     public String getDirector() {

@@ -10,7 +10,10 @@ public class Titulo {
         private int totalDelasEvaluaciones;
         public   int getTotalDelasEvaluaciones;
 
-   
+        public Titulo(String nombre){
+            this.nombre = nombre;
+        }
+
     public void setNombre(String nombre) {
             this.nombre = nombre;
         }

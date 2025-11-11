@@ -26,8 +26,7 @@ public class Principal {
         otraPelicula.setIncluidoEnElPlan(true);
 
 
-        Serie casaDragon = new Serie();
-        casaDragon.setNombre("La casa del dragón");
+        Serie casaDragon = new Serie("La casa del dragon");
         casaDragon.setFechaDeLanzamiento(2022);
         casaDragon.setTemporadas(1);
         casaDragon.setMinutosPorEpisodio(50);

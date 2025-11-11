@@ -8,8 +8,7 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Pelicula miPelicula = new Pelicula("Nemo");
-        miPelicula.setFechaDeLanzamiento(2021);
+        Pelicula miPelicula = new Pelicula("Nemo",2006);
         miPelicula.setDuracionEnMinutos(120);
         miPelicula.setIncluidoEnElPlan(true);
 
@@ -20,14 +19,12 @@ public class Principal {
         System.out.println(miPelicula.getTotalDelasEvaluaciones());
         System.out.println("Média de evaluaciones de la película: " + miPelicula.calculaMedia());
 
-        Pelicula otraPelicula = new Pelicula("Megamente");
-        otraPelicula.setFechaDeLanzamiento(2021);
+        Pelicula otraPelicula = new Pelicula("Megamente",2021);
         otraPelicula.setDuracionEnMinutos(200);
         otraPelicula.setIncluidoEnElPlan(true);
 
 
-        Serie casaDragon = new Serie("La casa del dragon");
-        casaDragon.setFechaDeLanzamiento(2022);
+        Serie casaDragon = new Serie("La casa del dragon",2022);
         casaDragon.setTemporadas(1);
         casaDragon.setMinutosPorEpisodio(50);
         casaDragon.setEpisodiosPorTemporada(10);
@@ -52,7 +49,7 @@ public class Principal {
         filtroRecomendacion.filtra(episodio);
 
         //Inferencia del tipo de dato (usar var), en lugar de escribir Pelicula peliculaSamuel = new Pelicula();
-        var peliculaSamuel = new Pelicula("Lost");
+        var peliculaSamuel = new Pelicula("Lost",2015);
 
         peliculaSamuel.setDuracionEnMinutos(180);
         peliculaSamuel.setFechaDeLanzamiento(2015);

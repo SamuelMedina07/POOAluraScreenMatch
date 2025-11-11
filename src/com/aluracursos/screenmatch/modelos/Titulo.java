@@ -10,8 +10,9 @@ public class Titulo {
         private int totalDelasEvaluaciones;
         public   int getTotalDelasEvaluaciones;
 
-        public Titulo(String nombre){
+        public Titulo(String nombre, int fechaDeLanzamiento){
             this.nombre = nombre;
+            this.fechaDeLanzamiento = fechaDeLanzamiento;
         }
 
     public void setNombre(String nombre) {

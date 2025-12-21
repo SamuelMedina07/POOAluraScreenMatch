@@ -1,7 +1,6 @@
 package com.aluracursos.screenmatch.modelos;
 
 import com.aluracursos.screenmatch.exception.ErrorEnConversionDeDuracionException;
-import com.google.gson.annotations.SerializedName;
 
 public class Titulo implements Comparable <Titulo> {
 
@@ -30,6 +29,7 @@ public class Titulo implements Comparable <Titulo> {
             //el subtring nos toma de la posion 0 a 3 del string
             this.duracionEnMinutos = Integer.parseInt(miTituloOmdb.runtime().substring(0,3).replace(" ",""));
     }
+
 
     public void setNombre(String nombre) {
             this.nombre = nombre;

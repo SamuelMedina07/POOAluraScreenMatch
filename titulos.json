@@ -1,26 +1,8 @@
 [
   {
-    "Nombre": "Cars",
-    "FechaDeLanzamiento": 2006,
-    "DuracionEnMinutos": 116,
-    "IncluidoEnElPlan": false,
-    "SumaDeLasEvaluaciones": 0.0,
-    "TotalDelasEvaluaciones": 0,
-    "GetTotalDelasEvaluaciones": 0
-  },
-  {
-    "Nombre": "Toy Story",
-    "FechaDeLanzamiento": 1995,
-    "DuracionEnMinutos": 81,
-    "IncluidoEnElPlan": false,
-    "SumaDeLasEvaluaciones": 0.0,
-    "TotalDelasEvaluaciones": 0,
-    "GetTotalDelasEvaluaciones": 0
-  },
-  {
-    "Nombre": "Matrix",
-    "FechaDeLanzamiento": 1993,
-    "DuracionEnMinutos": 60,
+    "Nombre": "Rango",
+    "FechaDeLanzamiento": 2011,
+    "DuracionEnMinutos": 107,
     "IncluidoEnElPlan": false,
     "SumaDeLasEvaluaciones": 0.0,
     "TotalDelasEvaluaciones": 0,
